@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="5891" started-at="2024-02-08T19:08:35Z" finished-at="2024-02-08T19:08:41Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="5891" started-at="2024-02-08T19:08:35Z" finished-at="2024-02-08T19:08:41Z">
+      <class name="api.endpoints.UserTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:api.endpoints.UserTests@35083305]" name="setup" is-config="true" duration-ms="305" started-at="2024-02-08T19:08:35Z" finished-at="2024-02-08T19:08:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testPostUser()[pri:1, instance:api.endpoints.UserTests@35083305]" name="testPostUser" duration-ms="3940" started-at="2024-02-08T19:08:35Z" finished-at="2024-02-08T19:08:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostUser -->
+      </class> <!-- api.endpoints.UserTests -->
+      <class name="api.test.UserTests">
+        <test-method status="PASS" signature="setupData()[pri:0, instance:api.test.UserTests@8e0379d]" name="setupData" is-config="true" duration-ms="78" started-at="2024-02-08T19:08:39Z" finished-at="2024-02-08T19:08:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupData -->
+        <test-method status="PASS" signature="testPostUser()[pri:1, instance:api.test.UserTests@8e0379d]" name="testPostUser" duration-ms="1541" started-at="2024-02-08T19:08:39Z" finished-at="2024-02-08T19:08:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostUser -->
+      </class> <!-- api.test.UserTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
